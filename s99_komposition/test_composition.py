@@ -7,7 +7,9 @@ oneCar.startMotor()
 
 assert(type(oneCar) == Car)
 assert(isinstance(oneCar, Car))
-assert(oneCar.color == "black")
-assert(oneCar.brand == "bmw")
-assert(oneCar.model == "320")
+assert(str(oneCar.color) == "black")
+assert(str(oneCar.brand) == "bmw")
+assert(str(oneCar.model) == "320")
 
+assert(callable(Motor.ignite))
+assert(callable(oneCar.startMotor))

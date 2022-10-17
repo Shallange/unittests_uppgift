@@ -1,7 +1,5 @@
 
 class Motor:
-   # def __init__(self,cylinders):
-        #self.cylinders = cylinders
     def ignite(self):
         print("engine started")
 
