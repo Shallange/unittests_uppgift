@@ -9,7 +9,6 @@ class Car:
         self.color = color
         self.model = model
         self.motor = Motor()
-    
         
     
     def startMotor(self):
